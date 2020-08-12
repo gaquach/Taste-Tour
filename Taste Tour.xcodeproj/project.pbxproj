@@ -12,10 +12,12 @@
 		2354D88C24E3959D006B10AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2354D88B24E3959D006B10AD /* ViewController.swift */; };
 		2354D88F24E3959D006B10AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2354D88D24E3959D006B10AD /* Main.storyboard */; };
 		2354D89224E3959D006B10AD /* Taste_Tour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2354D89024E3959D006B10AD /* Taste_Tour.xcdatamodeld */; };
-		2354D89424E3959E006B10AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2354D89324E3959E006B10AD /* Assets.xcassets */; };
 		2354D89724E3959E006B10AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2354D89524E3959E006B10AD /* LaunchScreen.storyboard */; };
 		2354D8A224E3959F006B10AD /* Taste_TourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2354D8A124E3959F006B10AD /* Taste_TourTests.swift */; };
 		2354D8AD24E3959F006B10AD /* Taste_TourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2354D8AC24E3959F006B10AD /* Taste_TourUITests.swift */; };
+		2354D8BB24E3C4FB006B10AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2354D8BA24E3C4FB006B10AD /* Assets.xcassets */; };
+		2354D8BC24E3C4FB006B10AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2354D8BA24E3C4FB006B10AD /* Assets.xcassets */; };
+		2354D8BD24E3C4FB006B10AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2354D8BA24E3C4FB006B10AD /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +44,6 @@
 		2354D88B24E3959D006B10AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2354D88E24E3959D006B10AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2354D89124E3959D006B10AD /* Taste_Tour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Taste_Tour.xcdatamodel; sourceTree = "<group>"; };
-		2354D89324E3959E006B10AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2354D89624E3959E006B10AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2354D89824E3959E006B10AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2354D89D24E3959F006B10AD /* Taste TourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taste TourTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +52,7 @@
 		2354D8A824E3959F006B10AD /* Taste TourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taste TourUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2354D8AC24E3959F006B10AD /* Taste_TourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taste_TourUITests.swift; sourceTree = "<group>"; };
 		2354D8AE24E3959F006B10AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2354D8BA24E3C4FB006B10AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +106,8 @@
 				2354D88724E3959D006B10AD /* AppDelegate.swift */,
 				2354D88924E3959D006B10AD /* SceneDelegate.swift */,
 				2354D88B24E3959D006B10AD /* ViewController.swift */,
+				2354D8BA24E3C4FB006B10AD /* Assets.xcassets */,
 				2354D88D24E3959D006B10AD /* Main.storyboard */,
-				2354D89324E3959E006B10AD /* Assets.xcassets */,
 				2354D89524E3959E006B10AD /* LaunchScreen.storyboard */,
 				2354D89824E3959E006B10AD /* Info.plist */,
 				2354D89024E3959D006B10AD /* Taste_Tour.xcdatamodeld */,
@@ -236,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2354D89724E3959E006B10AD /* LaunchScreen.storyboard in Resources */,
-				2354D89424E3959E006B10AD /* Assets.xcassets in Resources */,
+				2354D8BB24E3C4FB006B10AD /* Assets.xcassets in Resources */,
 				2354D88F24E3959D006B10AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2354D8BC24E3C4FB006B10AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2354D8BD24E3C4FB006B10AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
